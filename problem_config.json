@@ -4,14 +4,18 @@
       "instance_file": "instances/glass.dat",
       "k": 2
     },
-    "problem_type": "K-Means Clustering",
+    "creator": "Rastion",
+    "type": "problem",
+    "problem_name": "K means problem",
     "description": "Given a sample of observations along several dimensions, the goal is to partition these observations into k clusters. Each cluster is defined by its centroid (the arithmetic mean of the observations in that cluster) and the variance of a cluster is the sum of squared Euclidean distances between each observation and its centroid. The objective is to minimize the total variance across all clusters.",
+    "link_to_dataset": "https://github.com/Rastion/kmeans_problem/blob/main/instances/glass.dat",
     "keywords": [
       "k-means",
       "clustering",
       "partitioning",
       "variance",
-      "unsupervised learning"
+      "unsupervised learning",
+      "network-graph"
     ],
     "data_format": {
       "instance_file": {
@@ -30,11 +34,8 @@
       "description": "Minimize the total variance, where for each cluster the variance is defined as the sum of squared Euclidean distances from each observation in the cluster to the cluster's centroid."
     },
     "solution_representation": "A list of k lists, where each inner list contains the indices (0-indexed) of observations assigned to that cluster.",
-    "compatible_optimizers": [
-      "genetic_algorithm",
-      "simulated_annealing",
-      "particle_swarm",
-      "tabu_search"
+    "formulations": [
+      ""
     ]
   }
   
